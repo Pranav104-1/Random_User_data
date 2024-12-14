@@ -13,7 +13,7 @@ a = int(input("Enter the number of data to save in csv file: "))      #input fro
 
     
 username = [fake.name() for _ in range(a)]
-def generate_student_data(User_Data):
+def generate_User_data(User_Data):
     Users = []
     for i in range(1, a + 1):
         ID=random.randint(100,10000)
@@ -24,7 +24,7 @@ def generate_student_data(User_Data):
     return Users
 
 
-User_Data = generate_student_data(a)         #number of data to save in csv file
+User_Data = generate_User_data(a)         #number of data to save in csv file
 
 csv_file_name = "User_Data.csv"               #csv file name
 
