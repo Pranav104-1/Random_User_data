@@ -5,13 +5,8 @@ import csv
 fake = Faker()
 username=fake.user_name()
 
-
-
 a = int(input("Enter the number of data to save in csv file: "))      #input from user to make file
             
-
-
-    
 username = [fake.name() for _ in range(a)]
 def generate_User_data(User_Data):
     Users = []
